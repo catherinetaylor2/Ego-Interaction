@@ -21,10 +21,14 @@ Novel and immersive VR and AR experiences can be created by transporting physica
 
 We address these limitations in this paper, by presenting a new dataset – Ego-Interaction – the first egocentric hand-object interaction dataset with 3d ground truth data for both rigid and non-rigid objects. The Ego-Interaction dataset contains 92 sequences with 4 rigid, 1 articulated and 4 non-rigid objects and demonstrates handobject interactions with 1 and 2 hands. We also outline an approach for creating additional synthetic sequences, by augmenting the data provided in our dataset and discuss the potential future direction of hand-object tracking datasets. Our dataset and scripts to generate synthetic data will be made publicly available for research purposes.
 
-Link to paper
-Link to video results
+![Link to paper]()
+
+![Link to video results]()
   
   ## Dataset
+  
+  ![overview](https://user-images.githubusercontent.com/25514442/104744739-2597d700-5745-11eb-878b-f45fb18a1df9.png)
+
   
   ### Contents
   
