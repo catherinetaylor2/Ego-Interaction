@@ -15,8 +15,14 @@ Code and Data for the Ego-Interaction Dataset
   * [Citation](#citation)
   * [Contact](#contact)
   
-  ##Abstract
+  ## Abstract
   
-  ##Dataset
+  ## Dataset
   
-  ###Contents
+  ### Contents
+  
+  ## Code
+  
+  ## Contact
+  
+  This code is maintained by Catherine Taylor (c.taylor3@bath.ac.uk).
