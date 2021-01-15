@@ -30,6 +30,13 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   
   ### Contents
   
+  For each object, we provide:
+  * skeleton
+  * textured mesh in rest pose
+  * hand skeleton
+  * 6DoF Camera pose
+  * Egocentric RGBD images
+  
   ## Code
   
   ## Citation
