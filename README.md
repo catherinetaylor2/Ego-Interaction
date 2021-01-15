@@ -8,8 +8,6 @@ Code and Data for the Ego-Interaction Dataset
   * [Dataset](#dataset)
     * [Contents](#contents)
     * [Layout](#layout)
-	* [Access](#access)
-	* [Revisions](#access)
   * [Code](#code)
     * [Dependencies](#dependencies)
   * [Citation](#citation)
@@ -33,6 +31,10 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   ### Contents
   
   ## Code
+  
+  ## Citation
+  
+  When using this data, please use the following citation.
   
   ## Contact
   
