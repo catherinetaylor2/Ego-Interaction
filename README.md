@@ -27,6 +27,7 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   
   ![overview](https://user-images.githubusercontent.com/25514442/104744739-2597d700-5745-11eb-878b-f45fb18a1df9.png)
 
+  Dataset can be accessed via this ![link](https://docs.google.com/forms/d/1OVacDpob5nk5ahKWwX11NE_ppdssYJUYesmlT7kEfCU/edit?usp=sharing)
   
   ### Contents
   
