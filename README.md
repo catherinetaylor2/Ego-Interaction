@@ -45,11 +45,27 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   * 6DoF Camera pose
   * Egocentric RGBD images capture by Intel Realsense D435 at 30fps
   
+  
+  D435 colour intrinsic: [622.084, 0, 426.034, 0, 622.154, 245.07, 0, 0, 1]
+  
+  D435 depth intrinsic: [423.053, 0, 428.72, 0, 423.053, 247.33, 0, 0, 1]
+
+
+  
   ### Access
   
   Dataset can be accessed via this [link](https://forms.gle/cT12U9CdWkBzR8En9)
   
   ## Code
+  
+  We code for the generation and augmentation of synthetic data for network training. The code has been tested on Windows 10 using Python 3.
+  
+  ### Dependencies
+  
+  * cv2
+  * pytorch 
+  * matlibplot
+  * numpy
   
   ## Citation
   
