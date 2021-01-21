@@ -63,9 +63,11 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   ### Dependencies
   
   * cv2
-  * pytorch 
+  * torch 
+  * torchvision
   * matlibplot
   * numpy
+ 
   
   ## Citation
   
