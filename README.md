@@ -32,12 +32,18 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   
   ### Contents
   
-  For each object, we provide:
-  * skeleton
-  * textured mesh in rest pose
-  * hand skeleton
+  Our dataset contains hand-object interaction sequences for 4 rigid, 1 articulated and 4 non-rigid objects. We demonstrate sequences with 1 or 2 hand interactions as well as sequences where no hand tracking has been recorded. Interaction sequences contain the following motions:
+  * Rotations and translations of object in 3D space
+  * Object passed between hands
+  * Non-rigid object deformations
+  
+  For each object, we provide the following data representing the interaction sequences
+  * The solved object skeleton
+  * Textured object mesh in rest pose
+  * The solved hand skeleton
+  * Textured hand mesh in rest pose
   * 6DoF Camera pose
-  * Egocentric RGBD images
+  * Egocentric RGBD images capture by Intel Realsense D435 at 30fps
   
   ### Access
   
