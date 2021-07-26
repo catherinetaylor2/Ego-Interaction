@@ -16,9 +16,8 @@ Code and Data for the Ego-Interaction Dataset
   
   ## Abstract
   
-Novel and immersive VR and AR experiences can be created by transporting physical objects into virtual worlds. This requires a fast and robust algorithm for tracking the behaviour of rigid and nonrigid objects within Egocentric hand-object interaction sequences. In turn, the design of such an algorithm requires high quality and varied data. Existing hand-object datasets are largely limited to rigid object interactions, 3rd person views or are aimed towards hand tracking or action recognition applications and so do not provide the ground truth object pose or shape. Moreover, those datasets which do show non-rigid object interactions provide no ground truth 3D data for the object shape and pose and instead only provide 2D annotations.
 
-We address these limitations in this paper, by presenting a new dataset – Ego-Interaction – the first egocentric hand-object interaction dataset with 3d ground truth data for both rigid and non-rigid objects. The Ego-Interaction dataset contains 92 sequences with 4 rigid, 1 articulated and 4 non-rigid objects and demonstrates handobject interactions with 1 and 2 hands. We also outline an approach for creating additional synthetic sequences, by augmenting the data provided in our dataset and discuss the potential future direction of hand-object tracking datasets. Our dataset and scripts to generate synthetic data will be made publicly available for research purposes.
+Immersive virtual reality (VR) experiences might often be required to track both a users hands and a physical object at the same time and use the information to animate computer generated representations of the two interacting. However, to render visually without artefacts requires highly accurate tracking of the objects themselves and their relative locations -- made even more difficult when the objects themselves are articulated or deformable. If this tracking is incorrect, then the quality of the visual experience is reduced. In this paper we turn the problem around -- instead of focusing on improving high quality renders of hand-object interactions by improving tracking quality, we acknowledge there will be tracking errors and just focus on fixing the visualisations. We propose a Deep Neural Network (DNN) that modifies hand pose based on it's relative position with the object. However, to train the network we require sufficient labeled data. We therefore also present to the community a new dataset of hand-object interactions -- Ego-Interaction. This is the first egocentric hand-object interaction dataset with 3D ground truth data for both rigid and non-rigid objects. The Ego-Interaction dataset contains 92 sequences with 4 rigid, 1 articulated and 4 non-rigid objects and demonstrates hand-object interactions with 1 and 2 hands. carefully captured, rigged and animated using motion capture. The data set is not intended to be useful not just for our visualisation problem, but as a general resource for researchers in the VR and AI community interested in other hand-object and egocentric tracking related problems.
 
 [Link to paper]()
 
@@ -41,6 +40,7 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   * The solved object skeleton
   * Textured object mesh in rest pose
   * The solved hand skeleton
+  * MANO hand parameters
   * Textured hand mesh in rest pose
   * 6DoF Camera pose
   * Egocentric RGBD images capture by Intel Realsense D435 at 30fps
@@ -75,4 +75,4 @@ We address these limitations in this paper, by presenting a new dataset – Ego-
   
   ## Contact
   
-  This code is maintained by Catherine Taylor (c.taylor3@bath.ac.uk).
+  This code is maintained by Catherine Taylor (catherine.a.taylor2@gmail.com).
