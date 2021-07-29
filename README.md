@@ -55,19 +55,7 @@ Immersive virtual reality (VR) experiences might often be required to track both
   ### Access
   
   Dataset can be accessed via this [link](https://forms.gle/cT12U9CdWkBzR8En9)
-  
-  ## Code
-  
-  We code for the generation and augmentation of synthetic data for network training. The code has been tested on Windows 10 using Python 3.
-  
-  ### Dependencies
-  
-  * cv2
-  * torch 
-  * torchvision
-  * matlibplot
-  * numpy
- 
+   
   
   ## Citation
   
