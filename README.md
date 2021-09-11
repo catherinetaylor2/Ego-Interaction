@@ -1,4 +1,4 @@
-# Ego-Interaction: A Multiple Hand-to-Rigid and Non-Rigid Object Interaction Dataset
+# Ego-Interaction: Visual Hand-Object Pose Correction for VR Experiences
 Code and Data for the Ego-Interaction Dataset
 
 ![teaser](https://user-images.githubusercontent.com/25514442/104743868-17958680-5744-11eb-96d2-26f17782ba12.png)
