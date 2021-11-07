@@ -9,8 +9,6 @@ Code and Data for the Ego-Interaction Dataset
     * [Contents](#contents)
     * [Layout](#layout)
     * [Access](access)
-  * [Code](#code)
-    * [Dependencies](#dependencies)
   * [Citation](#citation)
   * [Contact](#contact)
   
@@ -21,7 +19,6 @@ Immersive virtual reality (VR) experiences might often be required to track both
 
 [Link to paper]()
 
-[Link to video results]()
   
   ## Dataset
   
