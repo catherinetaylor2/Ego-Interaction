@@ -58,6 +58,16 @@ Immersive virtual reality (VR) experiences might often be required to track both
   
   When using this data, please use the following citation.
   
+  ```
+  @inproceedings{10.1145/3487983.3488290,
+author = {Taylor, Catherine and Evans, Murray and Crellin, Eleanor and Parsons, Martin and Cosker, Darren},
+title = {Ego-Interaction: Visual Hand-Object Pose Correction for VR Experiences},
+year = {2021},
+publisher = {Association for Computing Machinery},
+booktitle = {Motion, Interaction and Games},
+series = {MIG '21}
+}
+  ```
   ## Contact
   
   This code is maintained by Catherine Taylor (catherine.a.taylor2@gmail.com).
